@@ -45,19 +45,6 @@ python src/main.py
 python src/inference.py
 
 
+<img width="667" alt="image" src="https://github.com/user-attachments/assets/52031260-b446-4f0d-8140-d4ab0088ae2f" />
 
 
-
-multilingual_chatbot_project/
-├── src/
-│   ├── main.py                      # Main entry point for the chatbot
-│   ├── translate_service.py         # Translation service using Hugging Face models
-│   ├── inference.py                 # Language detection and response handling
-│   └── requirements.txt             # Required packages for the project
-├── models/
-│   └── translation_model/           # Pretrained translation models (optional)
-├── data/
-│   └── sample_conversations.csv     # Sample conversations for testing
-├── README.md                        # Instructions and project overview
-├── .gitignore                       # Ignore unnecessary files for version control
-└── config.py                        # Configurations (like model names and languages)
