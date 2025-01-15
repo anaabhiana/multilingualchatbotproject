@@ -34,6 +34,8 @@ python3 -m venv venv
 source venv/bin/activate
 pip install -r src/requirements.txt
 
+pip install pycountry 
+
 pip install sentencepiece
 
 python -c "import sentencepiece; print('sentencepiece is installed!')"
