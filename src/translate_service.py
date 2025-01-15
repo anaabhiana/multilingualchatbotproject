@@ -19,6 +19,14 @@ class TranslatorService:
             "bn": pipeline("translation", model="csebuetnlp/banglat5_nmt_bn_en"),
 
             "hi": pipeline("translation", model="Helsinki-NLP/opus-mt-hi-en"),
+            
+            "es": pipeline("translation", model="Helsinki-NLP/opus-mt-es-en"),  
+
+            "pt": pipeline("translation", model="facebook/nllb-200-distilled-600M", 
+                           src_lang="por_Latn", tgt_lang="eng_Latn"),  
+
+            "ta": pipeline("translation", model="facebook/nllb-200-distilled-600M", 
+                           src_lang="tam_Taml", tgt_lang="eng_Latn"),  
 
             "default": pipeline("translation", model="Helsinki-NLP/opus-mt-mul-en")
 
@@ -33,6 +41,14 @@ class TranslatorService:
             "bn": pipeline("translation", model="csebuetnlp/banglat5_nmt_en_bn"),
 
             "hi": pipeline("translation", model="Helsinki-NLP/opus-mt-en-hi"),
+
+            "es": pipeline("translation", model="Helsinki-NLP/opus-mt-en-es"),  
+
+            "pt": pipeline("translation", model="facebook/nllb-200-distilled-600M", 
+                           src_lang="eng_Latn", tgt_lang="por_Latn"),  
+
+            "ta": pipeline("translation", model="facebook/nllb-200-distilled-600M", 
+                           src_lang="eng_Latn", tgt_lang="tam_Taml"),  
 
             "default": pipeline("translation", model="Helsinki-NLP/opus-mt-en-mul")
 
